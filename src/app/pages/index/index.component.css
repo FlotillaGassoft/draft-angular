@@ -1,0 +1,90 @@
+:host { 
+  display: contents; 
+}
+.index-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.index-hero {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxcontent);
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  padding-top: var(--dl-space-space-fiveunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  justify-content: space-between;
+}
+.index-services {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: var(--dl-space-space-tenunits);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.index-service-card {
+  width: 49%;
+  display: flex;
+  min-height: 500px;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-900);
+}
+.index-card-content {
+  margin: var(--dl-space-space-fiveunits);
+  display: flex;
+  padding: var(--dl-space-space-fiveunits);
+  max-width: 500px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.index-text {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+.index-text1 {
+  color: var(--dl-color-primary-700);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+@media(max-width: 991px) {
+  .index-hero {
+    flex-direction: column-reverse;
+  }
+}
+@media(max-width: 767px) {
+  .index-card-content {
+    margin: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .index-hero {
+    height: 660px;
+    margin-top: var(--dl-space-space-tenunits);
+    margin-bottom: var(--dl-space-space-tenunits);
+  }
+  .index-services {
+    padding-top: var(--dl-space-space-tripleunit);
+  }
+  .index-service-card {
+    width: 100%;
+    border-radius: var(--dl-radius-radius-radius32);
+    background-color: var(--dl-color-primary-700);
+  }
+  .index-text1 {
+    color: var(--dl-color-gray-black);
+  }
+}

@@ -1,0 +1,16 @@
+<div class="home-container">
+  <navbar-container
+    rootClassName="navbar-container-root-class-name1"
+  ></navbar-container>
+  <page-title rootClassName="page-title-root-class-name1"></page-title>
+  <div class="home-list">
+    <action-card></action-card>
+    <action-card rootClassName="action-card-root-class-name"></action-card>
+    <action-card rootClassName="action-card-root-class-name1"></action-card>
+    <action-card rootClassName="action-card-root-class-name2"></action-card>
+    <a [routerLink]="'scan-card'"><button class="btn btn-success pull-right">Card</button></a>
+    <a [routerLink]="'scan-driver'"><button class="btn btn-success pull-right">Driver</button></a>
+    <a [routerLink]="'amount'"><button class="btn btn-success pull-right">Amount</button></a>
+    <a [routerLink]="'insert-n-i-p'"><button class="btn btn-success pull-right">NIP</button></a>
+  </div>
+</div>

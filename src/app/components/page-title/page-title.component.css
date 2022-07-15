@@ -1,0 +1,44 @@
+:host { 
+  display: contents; 
+}
+.page-title-container {
+  display: flex;
+  position: relative;
+}
+
+
+
+
+
+
+@media(max-width: 479px) {
+  .page-title-text {
+    width: 100%;
+    height: 70px;
+    align-self: center;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 0px;
+    border-color: var(--dl-color-primary-900);
+    border-width: 1px;
+    border-bottom-width: 4px;
+  }
+  .page-title-root-class-name {
+    width: 100%;
+  }
+  .page-title-root-class-name1 {
+    width: 100%;
+  }
+  .page-title-root-class-name2 {
+    width: 100%;
+  }
+  .page-title-root-class-name3 {
+    width: 100%;
+  }
+  .page-title-root-class-name4 {
+    width: 100%;
+  }
+  .page-title-root-class-name5 {
+    width: 100%;
+  }
+}

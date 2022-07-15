@@ -1,0 +1,22 @@
+:host { 
+  display: contents; 
+}
+.scan-driver-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.scan-driver-image {
+  width: 400px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+@media(max-width: 479px) {
+  .scan-driver-text {
+    font-size: 1.5em;
+  }
+}
